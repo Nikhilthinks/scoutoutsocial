@@ -5,10 +5,10 @@ I am making a social media backend which is capable to serve various needs depen
 </br>
 Right Now we can perform CRUD operation to Create, Read, Update and Delete users, user profiles, user posts, comments, likes, dislikes and allow access to verified users only.
 </br>
-</br>
 MongoURI & jwtsecret key is intentionally hidden, please contact to get access.
 </br>
-refer
+</br>
+Refer
 https://scoutout-social.web.app for frontend design theme.
 </br>
 </br>
