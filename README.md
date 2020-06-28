@@ -5,7 +5,7 @@ I am making a social media backend which is capable to serve various needs depen
 </br>
 Right Now we can perform CRUD operation to Create, Read, Update and Delete users, user profiles, user posts, comments, likes, dislikes and allow access to verified users only.
 </br>
-MongoURI & jwtsecret key is intentionally hidden, please contact to get access.
+MongoURI & jwtsecret key are intentionally hidden, please contact to get access.
 </br>
 </br>
 Refer
