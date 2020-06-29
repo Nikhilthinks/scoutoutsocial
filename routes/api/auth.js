@@ -20,9 +20,10 @@ router.get("/", auth, async (req, res) => {
 router.post(
   "/",
   [
-    check("email", "Please enter your email").isEmail(),
-    check("password", "Password required").exists(),
-    // check("username", "Please enter your username"),
+    // check("email", "Please enter your email").isEmail(),
+    check("username", "Please enter your username").exists(),
+    check("password", "Password required").exists()
+    
   ],
   async (req, res) => {
     // console.log(req.body);
@@ -31,10 +32,10 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-    const { email, password } = req.body;
+    const { username, password } = req.body;
 
     try {
-      let user = await User.findOne({ email });
+      let user = await User.findOne({ username });
 
       if (!user) {
         return res
